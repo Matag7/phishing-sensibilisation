@@ -1,13 +1,14 @@
-# 🎣 Simulation de campagne de Phishing — Sensibilisation
+# Simulation de campagne de Phishing — Sensibilisation
+
 
 > ⚠️ **Avertissement légal** : Ce projet a été réalisé 
 > dans un cadre strictement éducatif, en environnement 
-> isolé, sur des cibles fictives et avec consentement. 
+> isolé, sur des cibles fictives. 
 > Toute reproduction sur des cibles réelles sans 
 > consentement explicite est illégale (Art. 323-3-1 
 > du Code pénal français).
 
----
+
 
 ##  Contexte
 
@@ -20,7 +21,7 @@ de ce type d'attaque, souvent sous-estimée car elle
 ne repose sur aucune faille technique — uniquement 
 sur la manipulation humaine.
 
----
+
 
 ##  Comment ça fonctionne
 
@@ -52,7 +53,7 @@ page, ceux-ci sont transmis en **POST** vers un serveur
 avant de rediriger l'utilisateur vers le vrai site — 
 sans qu'il ne remarque quoi que ce soit.
 
----
+
 
 ## 📸 Démonstration
 
@@ -62,27 +63,27 @@ et envoie les emails en une seule exécution.
 
 ![Terminal - Exécution du script](screens/screen1.png)
 
----
+
 
 ### Étape 2 — Email reçu par la cible
-L'email reçu imite parfaitement une alerte de sécurité 
+L'email reçu imite une alerte de sécurité 
 officielle, avec le prénom de la victime et un bouton 
 d'action incitant au clic immédiat.
 
 ![Email de phishing reçu](screens/screen2.png)
 
----
+
 
 ### Étape 3 — Fausse page de connexion
 En cliquant sur le lien, la victime arrive sur une copie 
 visuelle fidèle du site ciblé, hébergée en local.  
-L'URL `localhost:8000` trahit la supercherie — 
+On le voit a l'URL `localhost:8000` — 
 mais dans un cas réel, un domaine trompeur 
-(ex: `auth-google-security.com`) serait utilisé.
+(ex: `auth-google-security.com`) peut etre facilement utilisé.
 
 ![Page de connexion clonée](screens/screen3.png)
 
----
+
 
 ### Étape 4 — Identifiants collectés
 Les identifiants saisis sont enregistrés silencieusement 
@@ -91,7 +92,7 @@ le vrai site, sans se douter de rien.
 
 ![Données collectées](screens/screen4.png)
 
----
+
 
 ## 🛡️ Comment s'en protéger
 
@@ -103,7 +104,7 @@ le vrai site, sans se douter de rien.
 |  Utiliser un gestionnaire de mots de passe | Il ne remplira pas automatiquement sur un faux site |
 |  Signaler les emails suspects | Alerter son service informatique immédiatement |
 
----
+
 
 ## ⚖️ Cadre légal
 
@@ -113,7 +114,6 @@ Ce projet a été réalisé :
 - Via une **sandbox email** (Mailtrap) sans envoi réel
 - À des fins de **démonstration et sensibilisation** uniquement
 
----
 
 *Projet réalisé dans le cadre d'une campagne de sensibilisation 
 à la cybersécurité.*

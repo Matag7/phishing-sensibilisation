@@ -1,4 +1,4 @@
-# Simulation de campagne de Phishing — Sensibilisation
+# Simulation de campagne de Phishing
 
 
 > ⚠️ **Avertissement légal** : Ce projet a été réalisé 
@@ -57,7 +57,7 @@ sans qu'il ne remarque quoi que ce soit.
 
 ## 📸 Démonstration
 
-### Étape 1 — Lancement du script et clonage automatique
+### Étape 1 - Lancement du script et clonage automatique
 Le script demande l'URL cible, clone la page de connexion 
 et envoie les emails en une seule exécution.
 
@@ -65,7 +65,7 @@ et envoie les emails en une seule exécution.
 
 
 
-### Étape 2 — Email reçu par la cible
+### Étape 2 - Email reçu par la cible
 L'email reçu imite une alerte de sécurité 
 officielle, avec le prénom de la victime et un bouton 
 d'action incitant au clic immédiat.
@@ -74,18 +74,18 @@ d'action incitant au clic immédiat.
 
 
 
-### Étape 3 — Fausse page de connexion
+### Étape 3 - Fausse page de connexion
 En cliquant sur le lien, la victime arrive sur une copie 
 visuelle fidèle du site ciblé, hébergée en local.  
-On le voit a l'URL `localhost:8000` — 
-mais dans un cas réel, un domaine trompeur 
+On le voit a l'URL `localhost:8000`. 
+Mais dans un cas réel, un domaine trompeur 
 (ex: `auth-google-security.com`) peut etre facilement utilisé.
 
 ![Page de connexion clonée](screens/screen3.png)
 
 
 
-### Étape 4 — Identifiants collectés
+### Étape 4 - Identifiants collectés
 Les identifiants saisis sont enregistrés silencieusement 
 côté serveur. La victime est ensuite redirigée vers 
 le vrai site, sans se douter de rien.

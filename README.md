@@ -18,7 +18,7 @@ accessibles et sans compétences avancées.
 
 L'objectif est de **sensibiliser** aux risques réels 
 de ce type d'attaque, souvent sous-estimée car elle 
-ne repose sur aucune faille technique — uniquement 
+ne repose sur aucune faille technique, uniquement 
 sur la manipulation humaine.
 
 

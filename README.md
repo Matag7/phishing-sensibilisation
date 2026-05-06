@@ -50,7 +50,7 @@ officielle et provoquer un sentiment d'urgence.
 Lorsque la victime saisit ses identifiants sur la fausse 
 page, ceux-ci sont transmis en **POST** vers un serveur 
 **local** (à des fins de test uniquement) et enregistrés, 
-avant de rediriger l'utilisateur vers le vrai site — 
+avant de rediriger l'utilisateur vers le vrai site - 
 sans qu'il ne remarque quoi que ce soit.
 
 
